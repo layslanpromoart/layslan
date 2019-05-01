@@ -24,6 +24,7 @@ h1,h2,h3,h4 {
 }
 
 .heading {
+  color:#172930;
 	font-size: 60px;
 }
 .subheading {
@@ -32,6 +33,7 @@ h1,h2,h3,h4 {
 	padding-bottom: 60px;
 }
 .bold {
+  color:#172930;
 	font-weight: bold;
 }
 
@@ -57,7 +59,7 @@ p {
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
-	color: #303030;
+	color: #172930;
 	font-size: 40px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
@@ -67,7 +69,7 @@ p {
     color: #fff;
 }
 .custom-navbar .nav li a {
-    color: #505050;
+    color: #172930;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -126,7 +128,7 @@ p {
   text-align: center;
 }
 #home hr {
-  border: 2px solid #404040;
+  border: 2px solid #172930;
   width: 100px;
 }
 #home h3 {
@@ -135,15 +137,15 @@ p {
 #home .btn {
   background: transparent;
   border-radius: 0;
-  border: 3px solid #404040;
-  color: #404040;
+  border: 3px solid #172930;
+  color: #172930;
   font-weight: bold;
   padding: 16px 42px;
   margin-top: 40px;
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #404040;
+  background: #172930;
   color: #ffffff;
 }
 
@@ -204,6 +206,11 @@ p {
 #portfolio img:hover {
   opacity: 0.6;
 }
+.logo img{
+  margin-top: -100px;
+  top:50px;
+  width:25%;}
+.row {padding-top:90px;}
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
@@ -273,7 +280,7 @@ p {
   text-align: center;
 }
 #team h3 {
-  color: #202020;
+  color: #172930;
   line-height: 4px;
 }
 #team .team-des {
@@ -341,7 +348,7 @@ footer {
 }
 .social-icon li a {
   border-radius: 50%;
-  color: #303030;
+  color: #172930;
   font-size: 32px;
   width: 80px;
   height: 80px;
@@ -358,7 +365,7 @@ footer {
 
 /* copyright section */
 #copyright {
-  background: #404040;
+  background: #172930;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -390,6 +397,15 @@ footer {
   background: #FFD321;
   color: #000;
 }
+@media (min-width:1366px) {
+  .logo img {
+    width:15%;
+    margin-top:-170px;
+  }
+
+  @media (max-width:1366px) {
+  .logo img {
+  }
 
 @media screen and (min-width: 992px) {
   @-moz-document url-prefix() {
